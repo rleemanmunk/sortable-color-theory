@@ -2,10 +2,10 @@
     margin: 0px auto;
     list-style-type: none; 
     padding: 0; 
-    width: 1000px; 
+    width: 1200px; 
 }
 #sortable {
-    margin: 40px;
+    margin-top: 40px;
 }
 #sortable li { 
     margin: 3px 3px 3px 0; 
@@ -21,6 +21,6 @@
     box-shadow:         inset 0 0 10px #000000;
     cursor: move;
 }
-.settingsPanel {
-    margin: 20px auto;
+#settingsInfo {
+    margin: 10px auto;
 }

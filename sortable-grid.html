@@ -13,23 +13,24 @@
     </head>
     <body onload="setup()">
         <div class="viewBox">
-            <div class="settingsPanel panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title">Settings</h3>
-                </div>
-                <div class="panel-body">
-                    <form class="settings form-group">
-                        <div class="form-group">
-                            <label for="saturation">Saturation: <span id="saturationVal"></span></label>
-                            <div id="saturation-slider"></div>
+              <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#settingsInfo" aria-expanded="false" aria-controls="settingsInfo">
+                  Settings
+                </button>
+                <div class="collapse" id="settingsInfo">
+                      <div class="well">
+                          <form class="settings form-group">
+                              <div class="form-group">
+                                  <label for="saturation">Saturation: <span id="saturationVal"></span></label>
+                                  <div id="saturation-slider"></div>
+                              </div>
+                              <div class="form-group">
+                                  <label for="lightness">Lightness: <span id="lightnessVal"></span></label>
+                                  <div id="lightness-slider"></div>
+                              </div>
+                          </form>
                         </div>
-                        <div class="form-group">
-                            <label for="lightness">Lightness: <span id="lightnessVal"></span></label>
-                            <div id="lightness-slider"></div>
-                        </div>
-                    </form>
-                </div>
-            </div>
+                    </div>
+
             <ul id="sortable">
                 <li></li><li></li><li></li><li></li><li></li>
                 <li></li><li></li><li></li><li></li><li></li>
