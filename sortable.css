@@ -1,11 +1,11 @@
-.viewBox, #sortable { 
+.viewBox { 
     margin: 0px auto;
-    list-style-type: none; 
-    padding: 0; 
-    width: 1200px; 
+    margin-top: 10px;
 }
 #sortable {
-    margin-top: 40px;
+    list-style-type: none; 
+    width: 69%;
+    margin-top: 20px;
 }
 #sortable li { 
     margin: 3px 3px 3px 0; 
@@ -21,6 +21,11 @@
     box-shadow:         inset 0 0 10px #000000;
     cursor: move;
 }
+.settingsDiv {
+    width: 29%;
+    float: right;
+    margin-right: 10px;
+}
 #settingsInfo {
-    margin: 10px auto;
+    margin: 20px auto;
 }
